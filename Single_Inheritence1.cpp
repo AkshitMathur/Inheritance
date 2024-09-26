@@ -1,5 +1,5 @@
 //23070123014 Akshit Mathur
-
+//Aim:To study and implement Single Inheritance.
 #include <iostream>
 #include <string>
 
