@@ -352,7 +352,8 @@ Class C: access_specifier A
      - Print the type and color of `j3`.
 7. **End**: Terminate the program.
 
-### Conclusion:
+## Conclusion:
+We learnt to use the concepts of Inheritance and types of inheritance single , multiple , multilevel , hierarchical inheritance.
 
 
    
