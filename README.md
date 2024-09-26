@@ -196,5 +196,32 @@ Class C: access_specifier A
   ............. 
 };  
 
-## Algorithm 
- 
+## Algorithm Simple Inheritance:
+1. **Start**: Begin the program.
+2. **Define Class `Uni`**:
+   - **Attributes**:
+     - Create a string variable `uni`.
+   - **Constructor**:
+     - Initialize `uni` with the value "Symbiosis: ".
+   - **Method**:
+     - Define a method `discipline()` that prints "Engineering".
+
+3. **Define Class `Dep`**:
+   - **Inheritance**:
+     - Inherit publicly from class `Uni`.
+   - **Attributes**:
+     - Create a string variable `dept`.
+   - **Constructor**:
+     - Initialize `dept` with the value "Electronics & Communication".
+
+4. **Define `main()` Function**:
+   - **Create Object**:
+     - Instantiate an object `u1` of class `Dep`.
+   - **Call Method**:
+     - Invoke the `discipline()` method on the `u1` object to print "Engineering".
+   - **Display Output**:
+     - Print the concatenated result of `u1.uni` and `u1.dept`.
+5. **End**: Terminate the program.
+
+## Algorithm Multiple Inheritance:
+
