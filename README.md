@@ -296,6 +296,64 @@ Class C: access_specifier A
 
 ## Algorithm hierarchical Inheritance:
 
+1. **Start**: Begin the program.
+2. **Define Class `Jeans`**:
+   - **Attributes**:
+     - Create an array of strings `type[3]`.
+     - Initialize `type` with:
+       - `type[0]` = "Bootcut"
+       - `type[1]` = "Wide Leg"
+       - `type[2]` = "Skinny"
+   - **Method**:
+     - Define a method `brand()` that prints "H&M - &Denim".
+
+3. **Define Class `Bootcut`**:
+   - **Inheritance**:
+     - Inherit publicly from class `Jeans`.
+   - **Attributes**:
+     - Create a string variable `color`.
+     - Initialize `color` with "Dark Blue".
+
+4. **Define Class `WL`**:
+   - **Inheritance**:
+     - Inherit publicly from class `Jeans`.
+   - **Attributes**:
+     - Create a string variable `color`.
+     - Initialize `color` with "Black".
+
+5. **Define Class `Skinny`**:
+   - **Inheritance**:
+     - Inherit publicly from class `Jeans`.
+   - **Attributes**:
+     - Create a string variable `color`.
+   - **Constructor**:
+     - Initialize `color` with "Grey".
+
+6. **Define `main()` Function**:
+   - **Create Object**:
+     - Instantiate an object `j1` of class `Bootcut`.
+   - **Call Method**:
+     - Invoke the `brand()` method on `j1` to print the brand.
+   - **Display Bootcut Details**:
+     - Print the type and color of `j1`.
+
+   - **Create Object**:
+     - Instantiate an object `j2` of class `WL`.
+   - **Call Method**:
+     - Invoke the `brand()` method on `j2` to print the brand.
+   - **Display Wide Leg Details**:
+     - Print the type and color of `j2`.
+
+   - **Create Object**:
+     - Instantiate an object `j3` of class `Skinny`.
+   - **Call Method**:
+     - Invoke the `brand()` method on `j3` to print the brand.
+   - **Display Skinny Details**:
+     - Print the type and color of `j3`.
+7. **End**: Terminate the program.
+
+### Conclusion:
+
 
    
 
