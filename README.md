@@ -202,7 +202,6 @@ Class C: access_specifier A
 2. **Define Class `Uni`**:
    - **Attributes**:
      - Create a string variable `uni`.
-   - **Constructor**:
      - Initialize `uni` with the value "Symbiosis: ".
    - **Method**:
      - Define a method `discipline()` that prints "Engineering".
@@ -212,7 +211,6 @@ Class C: access_specifier A
      - Inherit publicly from class `Uni`.
    - **Attributes**:
      - Create a string variable `dept`.
-   - **Constructor**:
      - Initialize `dept` with the value "Electronics & Communication".
 
 4. **Define `main()` Function**:
@@ -230,7 +228,6 @@ Class C: access_specifier A
 2. **Define Class `Vehicle`**:
    - **Attributes**:
      - Create a string variable `company`.
-   - **Constructor**:
      - Initialize `company` with the value "Ford".
    - **Method**:
      - Define a method `type()` that prints "Mustang".
@@ -238,7 +235,6 @@ Class C: access_specifier A
 3. **Define Class `Specs`**:
    - **Attributes**:
      - Create a string variable `mileage`.
-   - **Constructor**:
      - Initialize `mileage` with the value "8 kmpl".
    - **Method**:
      - Define a method `colour()` that prints "Grey".
@@ -265,5 +261,42 @@ Class C: access_specifier A
 6. **End**: Terminate the program.
 
 ## Algorithm Multilevel Inheritance:
+
+1. **Start**: Begin the program.
+2. **Define Class `Food`**:
+   - **Attributes**:
+     - Create a string variable `cuisine`.
+     - Initialize `cuisine` with the value "Indian".
+   - **Method**:
+     - Define a method `type()` that prints "Asian".
+
+3. **Define Class `Dish`**:
+   - **Inheritance**:
+     - Inherit publicly from class `Food`.
+   - **Attributes**:
+     - Create a string variable `dish`.
+     - Initialize `dish` with the value "Biryani".
+
+4. **Define Class `Restaurant`**:
+   - **Inheritance**:
+     - Inherit publicly from class `Dish`.
+   - **Attributes**:
+     - Create a string variable `name`.
+     - Initialize `name` with the value "Spice Kitchen".
+
+5. **Define `main()` Function**:
+   - **Create Object**:
+     - Instantiate an object `f3` of class `Restaurant`.
+   - **Call Method**:
+     - Invoke the `type()` method on the `f3` object to print the type of cuisine.
+   - **Display Output**:
+     - Print the `cuisine` attribute of `f3` followed by the `dish`.
+     - Print the `name` attribute of `f3` as the restaurant name.
+6. **End**: Terminate the program.
+
+## Algorithm hierarchical Inheritance:
+
+
+   
 
 
