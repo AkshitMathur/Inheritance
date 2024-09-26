@@ -197,6 +197,7 @@ Class C: access_specifier A
 };  
 
 ## Algorithm Simple Inheritance:
+
 1. **Start**: Begin the program.
 2. **Define Class `Uni`**:
    - **Attributes**:
@@ -224,4 +225,45 @@ Class C: access_specifier A
 5. **End**: Terminate the program.
 
 ## Algorithm Multiple Inheritance:
+
+1. **Start**: Begin the program.
+2. **Define Class `Vehicle`**:
+   - **Attributes**:
+     - Create a string variable `company`.
+   - **Constructor**:
+     - Initialize `company` with the value "Ford".
+   - **Method**:
+     - Define a method `type()` that prints "Mustang".
+
+3. **Define Class `Specs`**:
+   - **Attributes**:
+     - Create a string variable `mileage`.
+   - **Constructor**:
+     - Initialize `mileage` with the value "8 kmpl".
+   - **Method**:
+     - Define a method `colour()` that prints "Grey".
+
+4. **Define Class `Car`**:
+   - **Inheritance**:
+     - Inherit publicly from both `Vehicle` and `Specs`.
+   - **Attributes**:
+     - Create a string variable `seater`.
+   - **Constructor**:
+     - Initialize `seater` with the value "4 seater".
+
+5. **Define `main()` Function**:
+   - **Create Object**:
+     - Instantiate an object `f2` of class `Car`.
+   - **Call Method**:
+     - Invoke the `colour()` method on the `f2` object to print the color.
+   - **Display Company and Type**:
+     - Print the `company` attribute of `f2`.
+     - Call the `type()` method on the `f2` object to print the vehicle type.
+   - **Display Seater and Mileage**:
+     - Print the number of seats in parentheses.
+     - Print the mileage of the car.
+6. **End**: Terminate the program.
+
+## Algorithm Multilevel Inheritance:
+
 
